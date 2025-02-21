@@ -23,7 +23,6 @@ func _getCenterOfDraw(d: Line2D) -> Vector2:
 	maxX = 0
 	minX = -1
 	for p in d.get_points():
-		print(p)
 		if minY == -1:
 			minY = p.y
 		if minX == -1:
